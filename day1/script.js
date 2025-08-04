@@ -53,5 +53,8 @@ console.log(one.name + " is " + one.age + " years old and lives in " + one.place
 document.write(one.name + " is " + one.age + " years old and lives in " + one.place )
 // document.getElementById("demo").innerHTML = "hello world";
 
-  
+let text = "abcdefghijk"
+  length = text.length;
+  console.log(length)
+
 
