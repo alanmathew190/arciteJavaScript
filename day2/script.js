@@ -138,7 +138,7 @@ while (i3 <= 30) {
 }
 console.log("do while-------------------------------");
 // do while 
-let i4 = 11;
+let i4 = 1;
 do {
     console.log(i4)
     i4++;
