@@ -85,12 +85,66 @@ function reversePrint(n4) {
 reversePrint(10);
 
 
-// function factorial() {
-//         let fact = 0;
-//     for(i=1; i<=n1; i++) {
-//         sum+=i;
-//     }
-//     console.log(sum);
-// }
-// sumOfN(10);
-// }
+function factorial(n5) {
+        let fact = 1;
+    for(i2=1; i2<=n5; i2++) {
+        fact *= i2;
+    }
+    console.log(fact)
+}
+factorial(10);
+
+// Arrays
+let fruits = ["Apple", "Orange", "Grapes","Pineapple"];
+console.log(fruits);
+
+console.log(fruits[2])
+
+fruits[2] = "Kiwi";
+console.log(fruits)
+
+x = fruits.length;
+console.log(x)
+
+console.log(fruits[x - 1])
+
+for (i = 0; i <= x-1; i++){
+    console.log(fruits[i])
+}
+
+fruits.push("Strawberry")
+console.log(fruits)
+
+fruits.pop()
+console.log(fruits);
+
+fruits.shift()
+console.log(fruits);
+
+fruits.unshift("Apple");
+console.log(fruits);
+
+console.log(fruits.length)
+
+console.log(fruits.indexOf("Kiwi"))
+
+console.log(fruits.includes("Cherry"));
+
+// deletefrombetween
+fruits.splice(1, 1)
+console.log(fruits)
+
+// addtobetween
+fruits.splice(2,0,"Mango")  
+console.log(fruits)
+
+// deleteandaddbetween
+fruits.splice(1, 1, "Cherry","Guava");
+console.log(fruits);
+
+// extract elements
+console.log(fruits.slice(1, 3))
+
+console.log(fruits.sort());
+
+console.log(fruits.reverse())
