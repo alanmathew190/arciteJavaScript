@@ -59,3 +59,13 @@ var h=document.querySelector("#demo4")
 console.log(h)
 h.style.color = "red"
 
+// function add() {
+//   console.log("add")
+//   sub();
+// }
+// function sub() {
+//   console.log("sub")
+//   add();
+// }
+
+
