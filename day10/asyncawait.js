@@ -1,6 +1,6 @@
  let foodOrder = new Promise(
     function (resolve, reject) {
-        let isRestaurantOpen = true;
+        let isRestaurantOpen = false;
         if (isRestaurantOpen) {
             resolve("Order is ready")
         }
