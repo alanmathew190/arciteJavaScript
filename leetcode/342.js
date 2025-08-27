@@ -1,8 +1,8 @@
-// var isPowerOfFour = function (n) {
-//     if (n <= 0) return false;
-//     return (Math.log(n) / Math.log(4)) % 1 === 0;
+var isPowerOfFour = function (n) {
+    if (n <= 0) return false;
+    return (Math.log(n) / Math.log(4)) % 1 === 0;
 
-// };
+};
 
 // console.log(isPowerOfFour(15))
 
