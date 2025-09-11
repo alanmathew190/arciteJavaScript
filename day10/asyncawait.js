@@ -10,6 +10,7 @@
     }
 )
 
+
 async function placeOrder() {
     try {
         let result = await foodOrder;

@@ -1,3 +1,4 @@
+
 // let foodOrder = new Promise(
 //     function (resolve, reject) {
 //         let isRestaurantOpen = true;
@@ -15,7 +16,8 @@
 //     function (result) {
 //     console.log(result)
 // })
-//     .catch(function (error) {
+//     .catch(
+//     function (error) {
 //     console.log(error)
 // })
 
