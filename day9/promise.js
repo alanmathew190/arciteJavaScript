@@ -1,25 +1,25 @@
 
-// let foodOrder = new Promise(
-//     function (resolve, reject) {
-//         let isRestaurantOpen = true;
-//         if (isRestaurantOpen) {
-//             resolve("Order is ready")
-//         }
-//         else {
-//             reject("Sorry, Out of order")
-//         }
-//     }
-// )
+let foodOrder = new Promise(
+    function (resolve, reject) {
+        let isRestaurantOpen = true;
+        if (isRestaurantOpen) {
+            resolve("Order is ready")
+        }
+        else {
+            reject("Sorry, Out of order")
+        }
+    }
+)
 
-// foodOrder
-//     .then(
-//     function (result) {
-//     console.log(result)
-// })
-//     .catch(
-//     function (error) {
-//     console.log(error)
-// })
+foodOrder
+    .then(
+    function (result) {
+    console.log(result)
+})
+    .catch(
+    function (error) {
+    console.log(error)
+})
 
 
 
