@@ -1,12 +1,11 @@
 
 
 var heightChecker = function (heights) {
-    let hei=heights
+    let hei=[...heights].sort((a,b)=>a-b)
     let count=0;
-    let h = heights.sort()
     
-    for (i = 0; i <= h.length; i++){
-        if (h[i] != hei[i]) {
+    for (i = 0; i < hei.length; i++){
+        if (hei[i] != heights[i]) {
             count++
         }
     }
